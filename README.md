@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-Open the address printed by Vite. [index.jsx](./index.jsx) acts as a testing ground that displays every component.
+Open the address printed by Vite. [index.jsx](./index.jsx) is the entry point that mounts [App.jsx](./App.jsx), which acts as a testing ground displaying every component.
 
 ## Project Structure
 
@@ -24,7 +24,8 @@ components/
   Tooltip/      Tooltip.jsx      index.js
 hooks/          useToggle.js, useEffectOnUpdate.js (standalone helpers)
 style.css       all component styles
-index.jsx       testing ground
+App.jsx         testing ground (displays every component)
+index.jsx       entry point (mounts App)
 ```
 
 Each component is exported from its own containing folder:
@@ -204,7 +205,7 @@ A compound component made of `Menu.Button`, `Menu.Dropdown` and `Menu.Item`. The
 1. Create a folder `components/ComponentName/` containing `ComponentName.jsx`.
 2. Add an `index.js` with `import X from "./X"; export default X`.
 3. Add styles to [style.css](./style.css) using a unique class prefix (e.g. `.badge-*`).
-4. Display the component in `index.jsx` to try it out.
+4. Display the component in `App.jsx` to try it out.
 
 Note: [style.css](./style.css) has a global rule for the `button` element. Custom buttons inside components (e.g. the Tooltip close button) need to override it.
 
