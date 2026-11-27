@@ -1,4 +1,4 @@
-# Component Library++
+# Component Library
 
 A small React component library: Badge, Banner, Card, Testimonial, Tooltip and Toast, plus a basic Button. Built with Vite.
 
