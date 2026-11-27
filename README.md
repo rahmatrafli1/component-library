@@ -1,6 +1,6 @@
 # Component Library++
 
-A small React component library: Badge, Banner, Card, Testimonial, Tooltip and Toast, alongside the existing Button and Menu. Built with Vite.
+A small React component library: Badge, Banner, Card, Testimonial, Tooltip and Toast, plus a basic Button. Built with Vite.
 
 ## Getting Started
 
@@ -19,11 +19,10 @@ components/
   Banner/       Banner.jsx       index.js
   Button/       Button.jsx
   Card/         Card.jsx         index.js
-  Menu/         Menu*.jsx        index.js
   Testimonial/  Testimonial.jsx  index.js
   Toast/        Toast.jsx        index.js
   Tooltip/      Tooltip.jsx      index.js
-hooks/          useToggle.js, useEffectOnUpdate.js
+hooks/          useToggle.js, useEffectOnUpdate.js (standalone helpers)
 style.css       all component styles
 index.jsx       testing ground
 ```
@@ -38,7 +37,7 @@ import Badge from "./components/Badge";
 
 - `react` / `react-dom` 18.2.0
 - `classnames` for combining class names
-- `react-icons` (Bootstrap Icons set, `react-icons/bs`)
+- `react-icons` ^4.4.0 (Bootstrap Icons set, `react-icons/bs`)
 
 ## Components
 
