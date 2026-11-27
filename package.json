@@ -1,6 +1,7 @@
 {
   "name": "Scrim-s05c3fi",
   "description": "https://scrimba.com/fullstack-path-c0fullstack/~011n",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
